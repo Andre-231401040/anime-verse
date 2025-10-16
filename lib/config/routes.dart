@@ -24,8 +24,7 @@ GoRouter createRouter() {
 
   return GoRouter(
     navigatorKey: rootNavigatorKey,
-    // initialLocation: AppRoutes.signIn,
-    initialLocation: AppRoutes.profile,
+    initialLocation: AppRoutes.signIn,
     routes: [
       GoRoute(
         path: AppRoutes.signIn,
